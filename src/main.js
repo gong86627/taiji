@@ -50,6 +50,12 @@ let str = `/*
     border-radius:50%;
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
 }
+/**
+ * 我们让太极动起来
+ */
+#div1{
+  animation: rotate 3s linear infinite;
+}
 `;
 let show_str = "";
 let n = 0;
@@ -71,7 +77,7 @@ let step = () => {
       n += 1;
       step();
     }
-  }, 50);
+  }, 30);
 };
 
 step();
