@@ -54,6 +54,8 @@ let str = `/*
  * 我们让太极动起来
  */
 #div1{
+  top: 25%;
+  left: 25%;
   animation: rotate 3s linear infinite;
 }
 `;

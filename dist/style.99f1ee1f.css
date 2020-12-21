@@ -1,2 +1,0 @@
-*{margin:0;padding:0}*,:after,:before{box-sizing:border-box}#html{word-break:break-all}#div1Wrapper{position:fixed;left:50%;transform:translateX(-50%);top:20px}#div1:after,#div1:before{content:"";display:block;position:absolute}@media (max-width:500px){#html{overflow:auto}#div1Wrapper,#html{height:50vh}#div1{position:relative;top:50%;left:50%;transform:translate(-50%,-50%)}}@keyframes rotate{0%{transform:rotate(0deg)}to{transform:rotate(359deg)}}
-/*# sourceMappingURL=style.99f1ee1f.css.map */
